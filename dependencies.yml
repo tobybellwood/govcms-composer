@@ -1,13 +1,11 @@
 version: 2
-dependencies: 
+dependencies:
 - type: php
-    path: /
-    manifest_updates: 
-      filters: 
-        - name: ".*"
-          versions: "Y.Y.Y"
-    settings: 
-      composer_options: "--ignore-platform-reqs --no-scripts"
-      github_labels: 
-        - dependencies
+  path: /
+  settings:
+    composer_options: "--no-scripts --no-progress --no-suggest"
+  manifest_updates:
+    filters:
+    - name: ".*"
+      versions: "Y.Y.Y"
     
