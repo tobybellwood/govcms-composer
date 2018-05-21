@@ -1,22 +1,13 @@
 version: 2
-dependencies:
+dependencies: 
 - type: php
-  path: /
-  settings:
-    # options for composer install/update/require
-    composer_options: "--ignore-platform-reqs --no-scripts"
+    path: /
+    manifest_updates: 
+      filters: 
+        - name: ".*"
+          versions: "Y.Y.Y"
+    settings: 
+      composer_options: "--ignore-platform-reqs --no-scripts"
+      github_labels: 
+        - dependencies
     
-    # automatically close outdated open PRs (works with GitHub only)
-    related_pr_behavior: close
-    github_labels:
-      - dependencies
-  
-  lockfile_updates:
-    enabled: true  # `true` by default
-
-  manifest_updates:
-    enabled: true  # `true` by default
-    filters:
-    # apply major, minor, and patch updates to manifests (this is the default behavior)
-    - name: ".*"
-      versions: Y.Y.Y
