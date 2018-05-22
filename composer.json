@@ -310,16 +310,14 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"PhantomInstaller\\Installer::installPhantomJS",
 			"@composer push"
 		],
 		"post-update-cmd": [
-			"PhantomInstaller\\Installer::installPhantomJS",
 			"@composer push",
 			"@composer package"
 		],
 		"package": "govCMS\\Core\\Composer\\Package::execute",
-		"push": "./vendor/bin/phing push",
+		"push": "./vendor/bin/phing -verbose push",
 		"nuke": "rm -r -f bin docroot vendor *.make"
 	}
 }
