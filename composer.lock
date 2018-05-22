@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "f63d53cfea97e992007a5d0db7636cbe",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -9215,17 +9215,17 @@
         },
         {
             "name": "drupal/webform_phone",
-            "version": "1.21.0",
+            "version": "1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform_phone",
-                "reference": "7.x-1.21"
+                "reference": "7.x-1.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform_phone-7.x-1.21.zip",
-                "reference": "7.x-1.21",
-                "shasum": "bb601b17bfd6b028ac5469bbb872380357f55e6e"
+                "url": "https://ftp.drupal.org/files/projects/webform_phone-7.x-1.23.zip",
+                "reference": "7.x-1.23",
+                "shasum": "410df7eaabc8396e3d10d41bc20dc6e2e67081a9"
             },
             "require": {
                 "drupal/drupal": "~7.0",
@@ -9238,8 +9238,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.21",
-                    "datestamp": "1439756339",
+                    "version": "7.x-1.23",
+                    "datestamp": "1441473539",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
