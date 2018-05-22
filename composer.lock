@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "25ee65ad8e5540994f0f2da34a3ae389",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -2844,17 +2844,17 @@
         },
         {
             "name": "drupal/feeds_tamper",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/feeds_tamper",
-                "reference": "7.x-1.1"
+                "reference": "7.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/feeds_tamper-7.x-1.1.zip",
-                "reference": "7.x-1.1",
-                "shasum": "c4efcf28455fc43f268ba1320cea0439f7742040"
+                "url": "https://ftp.drupal.org/files/projects/feeds_tamper-7.x-1.2.zip",
+                "reference": "7.x-1.2",
+                "shasum": "99a8036e894f2f8f7c0bbc999c462fd5979c9a93"
             },
             "require": {
                 "drupal/drupal": "~7.0",
@@ -2869,7 +2869,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.1",
+                    "version": "7.x-1.2",
                     "datestamp": "1512894785",
                     "security-coverage": {
                         "status": "covered",
