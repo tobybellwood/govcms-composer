@@ -4,12 +4,19 @@ dependencies:
   path: /
   settings:
     composer_options: "--ignore-platform-reqs --no-scripts --no-progress --no-suggest"
+    
+    related_pr_behavior: close
+    
     github_labels:
     - dependencies
+    
+    before_commit:
+    - composer package
+    
   manifest_updates:
     filters:
     - name: ".*"
       versions: "Y.Y.Y"
+      
   lockfile_updates:
     enabled: false
-    
