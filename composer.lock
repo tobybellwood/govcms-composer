@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "ebb76f200c289022057d04cb8a8818f3",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -7037,17 +7037,17 @@
         },
         {
             "name": "drupal/search_api_acquia",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/search_api_acquia",
-                "reference": "7.x-2.3"
+                "reference": "7.x-2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_acquia-7.x-2.3.zip",
-                "reference": "7.x-2.3",
-                "shasum": "ae54aa734e99144ab5e2a11c4b8b39516b150e19"
+                "url": "https://ftp.drupal.org/files/projects/search_api_acquia-7.x-2.4.zip",
+                "reference": "7.x-2.4",
+                "shasum": "0f76956fc86b3fa3eff2c1e76dec2611dfbad790"
             },
             "require": {
                 "drupal/acquia_agent": "*",
@@ -7060,7 +7060,7 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-2.3",
+                    "version": "7.x-2.4",
                     "datestamp": "1507844343",
                     "security-coverage": {
                         "status": "covered",
