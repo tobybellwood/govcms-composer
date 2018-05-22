@@ -310,10 +310,9 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"@composer push"
+			"@composer package"
 		],
 		"post-update-cmd": [
-			"@composer push",
 			"@composer package"
 		],
 		"package": "govCMS\\Core\\Composer\\Package::execute",
