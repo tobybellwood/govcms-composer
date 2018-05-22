@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "9d60d27589acb81170b36ba59e6a8d5c",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -3954,17 +3954,17 @@
         },
         {
             "name": "drupal/image_link_formatter",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/image_link_formatter",
-                "reference": "7.x-1.0"
+                "reference": "7.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/image_link_formatter-7.x-1.0.zip",
-                "reference": "7.x-1.0",
-                "shasum": "cca44ce176dc73ca26d68e84e754d52544d9da3e"
+                "url": "https://ftp.drupal.org/files/projects/image_link_formatter-7.x-1.1.zip",
+                "reference": "7.x-1.1",
+                "shasum": "9a5b2d1bacc5224ab54405b59908e4ad7063209e"
             },
             "require": {
                 "drupal/drupal": "*",
@@ -3976,7 +3976,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.0",
+                    "version": "7.x-1.1",
                     "datestamp": "1464230040",
                     "security-coverage": {
                         "status": "covered",
