@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "051d093b20157bdfc1f5b05e38930011",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -8139,17 +8139,17 @@
         },
         {
             "name": "drupal/token",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/token",
-                "reference": "7.x-1.6"
+                "reference": "7.x-1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/token-7.x-1.6.zip",
-                "reference": "7.x-1.6",
-                "shasum": "8b45fe9e57a09629559776175ae2ce0840aeec97"
+                "url": "https://ftp.drupal.org/files/projects/token-7.x-1.7.zip",
+                "reference": "7.x-1.7",
+                "shasum": "433827b79b944c05e38d144c9b95e5494116ff67"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -8160,7 +8160,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.6",
+                    "version": "7.x-1.7",
                     "datestamp": "1485316084",
                     "security-coverage": {
                         "status": "covered",
