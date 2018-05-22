@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "b272c18df5d7a7957ecc59158880b655",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -2911,17 +2911,17 @@
         },
         {
             "name": "drupal/field_group",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/field_group",
-                "reference": "7.x-1.5"
+                "reference": "7.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/field_group-7.x-1.5.zip",
-                "reference": "7.x-1.5",
-                "shasum": "59e3c655cf375a0d0e50a864e5451d0521a62dd4"
+                "url": "https://ftp.drupal.org/files/projects/field_group-7.x-1.6.zip",
+                "reference": "7.x-1.6",
+                "shasum": "a1d4cb711d1f9869a058dfcf3fb051b47b45c599"
             },
             "require": {
                 "drupal/ctools": "*",
@@ -2933,7 +2933,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.5",
+                    "version": "7.x-1.6",
                     "datestamp": "1509751984",
                     "security-coverage": {
                         "status": "covered",
