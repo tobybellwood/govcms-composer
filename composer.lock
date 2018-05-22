@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "2d63cd668a8770eb3ca503dabe506e3d",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -9336,17 +9336,17 @@
         },
         {
             "name": "drupal/workbench_access",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/workbench_access",
-                "reference": "7.x-1.4"
+                "reference": "7.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/workbench_access-7.x-1.4.zip",
-                "reference": "7.x-1.4",
-                "shasum": "dfbf58ad40ad79c5aef49984dcda10e07cb0c0d8"
+                "url": "https://ftp.drupal.org/files/projects/workbench_access-7.x-1.5.zip",
+                "reference": "7.x-1.5",
+                "shasum": "1605ed145d2dce54541977ba6f05e1ae00deedae"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -9357,8 +9357,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.4",
-                    "datestamp": "1485026283",
+                    "version": "7.x-1.5",
+                    "datestamp": "1485202738",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
