@@ -168,7 +168,7 @@
 		"drupal/wysiwyg_filter": "1.6-rc2",
 		"drupal/xmlsitemap": "2.3",
 		"drupal/shiny": "1.7",
-		"drupal/zen": "5.5",
+		"drupal/zen": "6.4.0",
 		"ckeditor/ckeditor": "4.9.2",
 		"mehrpadin/superfish": "2.1",
 		"swiftmailer/swiftmailer": "5.4.9",

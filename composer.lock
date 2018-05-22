@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "b5a9ebad83b1763b1d60672364d973cd",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -9733,17 +9733,17 @@
         },
         {
             "name": "drupal/zen",
-            "version": "5.5.0",
+            "version": "6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/zen",
-                "reference": "7.x-5.5"
+                "reference": "7.x-6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/zen-7.x-5.5.zip",
-                "reference": "7.x-5.5",
-                "shasum": "2b6ce32897e9966ebb894ab859a1798d0bbce962"
+                "url": "https://ftp.drupal.org/files/projects/zen-7.x-6.4.zip",
+                "reference": "7.x-6.4",
+                "shasum": "0bd6c43cbfac03a74be6adf8b1cb356539280b5f"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -9751,11 +9751,11 @@
             "type": "drupal-theme",
             "extra": {
                 "branch-alias": {
-                    "dev-5.x": "5.x-dev"
+                    "dev-6.x": "6.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-5.5",
-                    "datestamp": "1448957640",
+                    "version": "7.x-6.4",
+                    "datestamp": "1465005544",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
