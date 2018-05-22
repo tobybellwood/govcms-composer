@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "55a38d06e4f69e36a76c1d78297b86df",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -8627,17 +8627,17 @@
         },
         {
             "name": "drupal/video_filter",
-            "version": "3.3.0",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/video_filter",
-                "reference": "7.x-3.3"
+                "reference": "7.x-3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/video_filter-7.x-3.3.zip",
-                "reference": "7.x-3.3",
-                "shasum": "bbe0d84145adc20098098dcbce23cba1056725b9"
+                "url": "https://ftp.drupal.org/files/projects/video_filter-7.x-3.4.zip",
+                "reference": "7.x-3.4",
+                "shasum": "8987731d20673297685ed107de5a631858725b3f"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -8648,7 +8648,7 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-3.3",
+                    "version": "7.x-3.4",
                     "datestamp": "1464823439",
                     "security-coverage": {
                         "status": "covered",
