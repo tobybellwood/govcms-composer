@@ -3,7 +3,7 @@ dependencies:
 - type: php
   path: /
   settings:
-    composer_options: "--ignore-platform-reqs -vvv"
+    composer_options: "--ignore-platform-reqs --no-scripts --no-progress --no-suggest"
     
     related_pr_behavior: close
     
