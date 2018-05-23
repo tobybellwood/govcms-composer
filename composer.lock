@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "96f3a82383ec06fbf0072a2faebeb464",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -1386,9 +1386,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/ctools-2828620-60-View-pane-rendering-misuses-cache-revert-1910608.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -1708,11 +1706,7 @@
                         "message": "Project has not opted into security advisory coverage!"
                     }
                 },
-                "patches_applied": [
-                    "https://drupal.org/files/1611928-fix-alt.patch",
-                    "https://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch",
-                    "https://drupal.org/files/1896232-defaultcontent-nid.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -1941,11 +1935,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/drupal-7.x-allow_profile_change_sys_req-1772316-28.patch",
-                    "https://www.drupal.org/files/issues/drupal-1470656-26.patch",
-                    "https://www.drupal.org/files/issues/core-111702-99-use_replyto.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -2174,9 +2164,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/2307807-entity-reset-insert-1.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -2358,9 +2346,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/url_formatter-2370029-2-7.x-1.5.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -2479,9 +2465,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/event-log-request-password-2365895-2.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -3636,9 +3620,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/google-chart-tools-ajax-1613258-11-7.x-1.4.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -3932,9 +3914,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/form_not_protected_if_machinename_wrapping_specific_word-2912575-3.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -4117,9 +4097,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/libraries-version-callback-reference-parameter-fix-2779591-3.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -4266,9 +4244,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/linkchecker-views-integration-965720-112.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -4387,17 +4363,17 @@
         },
         {
             "name": "drupal/login_destination",
-            "version": "1.1.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/login_destination",
-                "reference": "7.x-1.1"
+                "reference": "7.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/login_destination-7.x-1.1.zip",
-                "reference": "7.x-1.1",
-                "shasum": "f2b2520b5ad3576bb97068685314ebe1e576f31b"
+                "url": "https://ftp.drupal.org/files/projects/login_destination-7.x-1.4.zip",
+                "reference": "7.x-1.4",
+                "shasum": "ece3e003b5666892da71635965e3618a99491163"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -4408,8 +4384,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.1",
-                    "datestamp": "1449647639",
+                    "version": "7.x-1.4",
+                    "datestamp": "1453451939",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5121,9 +5097,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/1970362-64-reroll-of-58.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -5433,12 +5407,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/2418317-2-mpac.patch",
-                    "https://www.drupal.org/files/issues/module-info-2698853-1.patch",
-                    "https://www.drupal.org/files/issues/module-install-file-2698851-1.patch",
-                    "https://www.drupal.org/files/issues/more-user-access-check-2698843-1.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -5885,9 +5854,7 @@
                         "message": "RC releases are not covered by Drupal security advisories."
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/paragraphs_workbench_moderation-2603424-19.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -6232,9 +6199,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/pci_update_password_field_0.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -6620,9 +6585,7 @@
                         "message": "RC releases are not covered by Drupal security advisories."
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/redirect.circular-loops.1796596-172.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -6904,9 +6867,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/scheduler_workbench-revision_publish-2048999-45.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -7175,9 +7136,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/2900795-2--remove_unnecessary_h1.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -7748,7 +7707,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -8332,9 +8292,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/twitter_block-2751845-5.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -9141,9 +9099,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/webform_clear-2250027-testfix-2.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -9427,9 +9383,7 @@
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/workbench_moderation-pathauto.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -9879,9 +9833,7 @@
             },
             "type": "npm-asset",
             "extra": {
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/2235299-11.patch"
-                ]
+                "patches_applied": []
             },
             "license": [
                 "MIT"
@@ -9942,9 +9894,7 @@
             },
             "type": "npm-asset",
             "extra": {
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/2235299-12.patch"
-                ]
+                "patches_applied": []
             },
             "license": [
                 "MIT"
