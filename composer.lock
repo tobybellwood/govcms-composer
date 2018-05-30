@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "f66945817e61590505496a5354b8a614",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -9933,18 +9934,16 @@
         },
         {
             "name": "npm-asset/underscore",
-            "version": "1.8.3",
+            "version": "1.9.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz",
+                "url": "https://registry.npmjs.org/underscore/-/underscore-1.9.0.tgz",
                 "reference": null,
                 "shasum": null
             },
             "type": "npm-asset",
             "extra": {
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/2235299-12.patch"
-                ]
+                "patches_applied": []
             },
             "license": [
                 "MIT"
