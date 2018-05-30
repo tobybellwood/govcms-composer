@@ -338,5 +338,4 @@ libraries[modernizr][download][branch] = v2.8.3
 libraries[modernizr][download][revision] = d6bb30c0f12ebb3ddd01e90b0bf435e1c34e6f11
 libraries[underscore][type] = library
 libraries[underscore][download][type] = get
-libraries[underscore][download][url] = https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz
-libraries[underscore][patch][] = https://www.drupal.org/files/issues/2235299-12.patch
+libraries[underscore][download][url] = https://registry.npmjs.org/underscore/-/underscore-1.9.0.tgz
