@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "a2d0d99daf1652b92a55937028f9a38d",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -9920,7 +9921,7 @@
             "version": "v2.8.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Modernizr/Modernizr.git",
+                "url": "git@github.com:Modernizr/Modernizr.git",
                 "reference": "d6bb30c0f12ebb3ddd01e90b0bf435e1c34e6f11"
             },
             "dist": {
@@ -9933,18 +9934,16 @@
         },
         {
             "name": "npm-asset/underscore",
-            "version": "1.8.3",
+            "version": "1.9.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz",
+                "url": "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz",
                 "reference": null,
                 "shasum": null
             },
             "type": "npm-asset",
             "extra": {
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/2235299-12.patch"
-                ]
+                "patches_applied": []
             },
             "license": [
                 "MIT"
