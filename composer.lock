@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "34f0785c2007cf7d12885d5735bc7bbc",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -9889,10 +9890,10 @@
         },
         {
             "name": "npm-asset/chosen-js",
-            "version": "1.8.5",
+            "version": "1.8.7",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/chosen-js/-/chosen-js-1.8.5.tgz",
+                "url": "https://registry.npmjs.org/chosen-js/-/chosen-js-1.8.7.tgz",
                 "reference": null,
                 "shasum": null
             },
@@ -9920,7 +9921,7 @@
             "version": "v2.8.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Modernizr/Modernizr.git",
+                "url": "git@github.com:Modernizr/Modernizr.git",
                 "reference": "d6bb30c0f12ebb3ddd01e90b0bf435e1c34e6f11"
             },
             "dist": {
