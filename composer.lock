@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "3add4f72b942e110b72b544fc79fd30c",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -2032,17 +2032,17 @@
         },
         {
             "name": "drupal/ds",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/ds",
-                "reference": "7.x-2.15"
+                "reference": "7.x-2.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ds-7.x-2.15.zip",
-                "reference": "7.x-2.15",
-                "shasum": "d6ca6231da8fad56f1a3338496f1e4bd77706bf3"
+                "url": "https://ftp.drupal.org/files/projects/ds-7.x-2.16.zip",
+                "reference": "7.x-2.16",
+                "shasum": "1af4e6bc74c154d2fd4aabff991dafdc923098a1"
             },
             "require": {
                 "drupal/ctools": "*",
@@ -2057,8 +2057,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-2.15",
-                    "datestamp": "1524077723",
+                    "version": "7.x-2.16",
+                    "datestamp": "1530614320",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -9920,7 +9921,7 @@
             "version": "v2.8.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Modernizr/Modernizr.git",
+                "url": "git@github.com:Modernizr/Modernizr.git",
                 "reference": "d6bb30c0f12ebb3ddd01e90b0bf435e1c34e6f11"
             },
             "dist": {
