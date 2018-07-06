@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "dc20f59b42674acb3c388e69c4e61414",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -8370,17 +8371,17 @@
         },
         {
             "name": "drupal/username_enumeration_prevention",
-            "version": "1.0.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/username_enumeration_prevention",
-                "reference": "7.x-1.0"
+                "reference": "7.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/username_enumeration_prevention-7.x-1.0.zip",
-                "reference": "7.x-1.0",
-                "shasum": "25a57b97a845ab9d10dcaf0a41a672063b472fd3"
+                "url": "https://ftp.drupal.org/files/projects/username_enumeration_prevention-7.x-1.3.zip",
+                "reference": "7.x-1.3",
+                "shasum": "689c47646565ad91419a1c3b5673b3572a90e8dc"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -8391,8 +8392,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.0",
-                    "datestamp": "1429856329",
+                    "version": "7.x-1.3",
+                    "datestamp": "1530893021",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8417,11 +8418,15 @@
                     "homepage": "https://www.drupal.org/user/473174"
                 },
                 {
+                    "name": "nicksanta",
+                    "homepage": "https://www.drupal.org/user/87915"
+                },
+                {
                     "name": "pbull",
                     "homepage": "https://www.drupal.org/user/13896"
                 }
             ],
-            "description": "Removes the error message produced, from the forgot password form, when an incorrect user has been supplied.",
+            "description": "Prevents username enumeration on password reset and user pages.",
             "homepage": "https://www.drupal.org/project/username_enumeration_prevention",
             "support": {
                 "source": "http://cgit.drupalcode.org/username_enumeration_prevention"
@@ -9920,7 +9925,7 @@
             "version": "v2.8.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Modernizr/Modernizr.git",
+                "url": "git@github.com:Modernizr/Modernizr.git",
                 "reference": "d6bb30c0f12ebb3ddd01e90b0bf435e1c34e6f11"
             },
             "dist": {
