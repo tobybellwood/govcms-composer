@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "b35ebb4a4d4fb83c4d3376a63f3cfa23",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -8480,23 +8481,24 @@
         },
         {
             "name": "drupal/uuid",
-            "version": "1.0.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/uuid",
-                "reference": "7.x-1.0"
+                "reference": "7.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/uuid-7.x-1.0.zip",
-                "reference": "7.x-1.0",
-                "shasum": "6badd2aa8b047edb7ef7c1568296482582782a59"
+                "url": "https://ftp.drupal.org/files/projects/uuid-7.x-1.2.zip",
+                "reference": "7.x-1.2",
+                "shasum": "ed94aa59fc45c300ac6c38c6f419e60d777a89f3"
             },
             "require": {
                 "drupal/drupal": "*"
             },
             "require-dev": {
                 "drupal/entity": "*",
+                "drupal/file_entity": "*",
                 "drupal/rest_server": "*",
                 "drupal/services": "*",
                 "drupal/uuid_services": "*"
@@ -8507,8 +8509,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.0",
-                    "datestamp": "1493291943",
+                    "version": "7.x-1.2",
+                    "datestamp": "1531990681",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8520,6 +8522,10 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "Manuel Garcia",
+                    "homepage": "https://www.drupal.org/user/213194"
+                },
                 {
                     "name": "dixon_",
                     "homepage": "https://www.drupal.org/user/239911"
@@ -9920,7 +9926,7 @@
             "version": "v2.8.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Modernizr/Modernizr.git",
+                "url": "git@github.com:Modernizr/Modernizr.git",
                 "reference": "d6bb30c0f12ebb3ddd01e90b0bf435e1c34e6f11"
             },
             "dist": {
