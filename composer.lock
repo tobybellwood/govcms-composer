@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "6568969baf4fc1020cb83bb39fb9bec1",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -692,17 +692,17 @@
         },
         {
             "name": "drupal/bean",
-            "version": "1.11.0",
+            "version": "1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/bean",
-                "reference": "7.x-1.11"
+                "reference": "7.x-1.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bean-7.x-1.11.zip",
-                "reference": "7.x-1.11",
-                "shasum": "e112beda7f13a0b02c8b2a09df9818ba9ec4665e"
+                "url": "https://ftp.drupal.org/files/projects/bean-7.x-1.13.zip",
+                "reference": "7.x-1.13",
+                "shasum": "8dad9ed20dd2bbcd31cfa5581d62433c354807a1"
             },
             "require": {
                 "drupal/ctools": "*",
@@ -720,8 +720,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.11",
-                    "datestamp": "1470638339",
+                    "version": "7.x-1.13",
+                    "datestamp": "1533832980",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
