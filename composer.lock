@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "061663d04ce60fb2459466c8ebe0a913",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -3904,17 +3904,17 @@
         },
         {
             "name": "drupal/honeypot",
-            "version": "1.22.0",
+            "version": "1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/honeypot",
-                "reference": "7.x-1.22"
+                "reference": "7.x-1.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/honeypot-7.x-1.22.zip",
-                "reference": "7.x-1.22",
-                "shasum": "538d0d23f9908184604b660616bfd65c70fbbe43"
+                "url": "https://ftp.drupal.org/files/projects/honeypot-7.x-1.25.zip",
+                "reference": "7.x-1.25",
+                "shasum": "5fd4d11c9cdc4da3d305641ad2d23b921436c3f2"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -3925,16 +3925,14 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.22",
-                    "datestamp": "1515625384",
+                    "version": "7.x-1.25",
+                    "datestamp": "1533849180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/form_not_protected_if_machinename_wrapping_specific_word-2912575-3.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -7748,7 +7746,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
