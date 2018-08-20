@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "47d8e879904ae35c8823f697110e068b",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -4238,17 +4238,17 @@
         },
         {
             "name": "drupal/linkchecker",
-            "version": "1.2.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/linkchecker",
-                "reference": "7.x-1.2"
+                "reference": "7.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/linkchecker-7.x-1.2.zip",
-                "reference": "7.x-1.2",
-                "shasum": "0c00cea433edfeac5ca9ab434f12b19e3c48ef89"
+                "url": "https://ftp.drupal.org/files/projects/linkchecker-7.x-1.4.zip",
+                "reference": "7.x-1.4",
+                "shasum": "aa0f20ccb135d4585433289b70dd2dd5dafa1979"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -4259,16 +4259,14 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.2",
-                    "datestamp": "1470438839",
+                    "version": "7.x-1.4",
+                    "datestamp": "1534714680",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/linkchecker-views-integration-965720-112.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -7748,7 +7746,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
