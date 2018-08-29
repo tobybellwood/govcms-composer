@@ -166,7 +166,7 @@
 		"drupal/wysiwyg": "2.x-dev#4efd47771a7fce77eb0364c747e3c76a6a65c460",
 		"drupal/wysiwyg_abbr": "1.0",
 		"drupal/wysiwyg_filter": "1.6-rc2",
-		"drupal/xmlsitemap": "2.3",
+		"drupal/xmlsitemap": "2.5.0",
 		"drupal/shiny": "1.7",
 		"drupal/zen": "5.5",
 		"ckeditor/ckeditor": "4.9.2",
