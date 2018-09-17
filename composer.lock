@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "f2bfd285ee26d0784064a8d2ad6f8396",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -7146,17 +7146,17 @@
         },
         {
             "name": "drupal/search_api_page",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/search_api_page",
-                "reference": "7.x-1.4"
+                "reference": "7.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_page-7.x-1.4.zip",
-                "reference": "7.x-1.4",
-                "shasum": "5f1b8c0b7426d8f7057e8e9f06b5888732faf725"
+                "url": "https://ftp.drupal.org/files/projects/search_api_page-7.x-1.5.zip",
+                "reference": "7.x-1.5",
+                "shasum": "79ce290d7e853a5057518546b0d7b864cd6e5cc3"
             },
             "require": {
                 "drupal/drupal": "~7.0",
@@ -7168,22 +7168,24 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.4",
-                    "datestamp": "1500368344",
+                    "version": "7.x-1.5",
+                    "datestamp": "1537174685",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/2900795-2--remove_unnecessary_h1.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "borisson_",
+                    "homepage": "https://www.drupal.org/user/2393360"
+                },
                 {
                     "name": "drunken monkey",
                     "homepage": "https://www.drupal.org/user/205582"
@@ -7748,7 +7750,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
