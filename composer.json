@@ -44,7 +44,7 @@
 		"drupal/ctools": "1.12",
 		"drupal/ccl": "1.5",
 		"drupal/chosen": "2.1",
-		"drupal/clamav": "1.0",
+		"drupal/clamav": "1.1.0",
 		"drupal/node_clone": "1.0",
 		"drupal/context": "3.6",
 		"drupal/crumbs": "2.3",
