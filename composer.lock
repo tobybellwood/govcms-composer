@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "6b74fe767d6b077a20c711af95dd4c2c",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -4089,17 +4089,17 @@
         },
         {
             "name": "drupal/libraries",
-            "version": "2.3.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/libraries",
-                "reference": "7.x-2.3"
+                "reference": "7.x-2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/libraries-7.x-2.3.zip",
-                "reference": "7.x-2.3",
-                "shasum": "1c54f921bec25b89ce0e9312bfea606f1a07fbd4"
+                "url": "https://ftp.drupal.org/files/projects/libraries-7.x-2.5.zip",
+                "reference": "7.x-2.5",
+                "shasum": "e4968b817f2f443d874a30069b764d3a7ab7d482"
             },
             "require": {
                 "drupal/drupal": "^7.11"
@@ -4110,16 +4110,14 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-2.3",
-                    "datestamp": "1463077439",
+                    "version": "7.x-2.5",
+                    "datestamp": "1538770681",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "patches_applied": [
-                    "https://www.drupal.org/files/issues/libraries-version-callback-reference-parameter-fix-2779591-3.patch"
-                ]
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
@@ -4129,6 +4127,10 @@
                 {
                     "name": "Pol",
                     "homepage": "https://www.drupal.org/user/47194"
+                },
+                {
+                    "name": "joseph.olstad",
+                    "homepage": "https://www.drupal.org/user/1321830"
                 },
                 {
                     "name": "rjacobs",
@@ -7748,7 +7750,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
