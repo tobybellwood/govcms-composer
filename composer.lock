@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "9471e187f9433a3ceb8971e1df2a7237",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -7269,17 +7269,17 @@
         },
         {
             "name": "drupal/seckit",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/seckit",
-                "reference": "7.x-1.9"
+                "reference": "7.x-1.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/seckit-7.x-1.9.zip",
-                "reference": "7.x-1.9",
-                "shasum": "799a216b62013a25923babe6fc2bbc0ea7d99bc9"
+                "url": "https://ftp.drupal.org/files/projects/seckit-7.x-1.10.zip",
+                "reference": "7.x-1.10",
+                "shasum": "8ee5f062204cda0588f72b0c102bfebf20e9cc1f"
             },
             "require": {
                 "drupal/drupal": "~7.0"
@@ -7290,8 +7290,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.9",
-                    "datestamp": "1399337027",
+                    "version": "7.x-1.10",
+                    "datestamp": "1539600180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
