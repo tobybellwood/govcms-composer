@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17000da2a5fae0d37b293757a952fdfc",
+    "content-hash": "a0974c5b6a2f2104b4a7392983cec48c",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -5244,17 +5244,17 @@
         },
         {
             "name": "drupal/minisite",
-            "version": "1.0.0-alpha2",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/minisite",
-                "reference": "7.x-1.0-alpha2"
+                "reference": "7.x-1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/minisite-7.x-1.0-alpha2.zip",
-                "reference": "7.x-1.0-alpha2",
-                "shasum": "47fb4ef251ca8bca658153f41e94b4c9a0212b06"
+                "url": "https://ftp.drupal.org/files/projects/minisite-7.x-1.0.zip",
+                "reference": "7.x-1.0",
+                "shasum": "a3f53d6bdb034617da08ecabef19f1cd3546c703"
             },
             "require": {
                 "drupal/drupal": "*"
@@ -5265,11 +5265,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "7.x-1.0-alpha2",
-                    "datestamp": "1486608484",
+                    "version": "7.x-1.0",
+                    "datestamp": "1539576781",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -7748,7 +7748,8 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                }
+                },
+                "patches_applied": []
             },
             "notification-url": "https://packages.drupal.org/7/downloads",
             "license": [
